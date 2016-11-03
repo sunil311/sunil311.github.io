@@ -1,15 +1,36 @@
-<div class="panel panel-default">
-  <!-- Default panel contents -->
-  <div class="panel-heading">Core Java</div>
-  <div class="panel-body">
-    <p></p>
-  </div>
+<html>
+<meta charset="ISO-8859-1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/thirdparty/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="/thirdparty/jquery-3.1.0.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="/thirdparty/js/bootstrap.min.js"></script>
+<script> 
+$(function(){
+  $("#footer").load("footer.html"); 
+});
+</script>
+<body>
   <!-- Table -->
-  <table class="table">
-	<tr>
-		<td><a href"http://blog.jamesdbloom.com/JVMInternals.html"></a>jamesdbloom.com</td>
-		<td>JVM internals</td>
-	</tr>
-  </table>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">JVM</h3>
+	</div>
+	<div class="panel-body">
+		<table class="table">
+			<tr>
+				<td>
+					  <a href="http://www.vogella.com/tutorials/JavaConcurrency/article.html" target="_blank">vogella.com</a>
+				</td>
+				<td>multi-threading</td>
+			</tr>
+		  </table>  
+	</div>
 </div>
+<div id="footer"></div>
+</body>
+</div>
+</html>
