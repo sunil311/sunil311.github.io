@@ -1,0 +1,77 @@
+<html>
+<meta charset="ISO-8859-1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/thirdparty/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="/thirdparty/jquery-3.1.0.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="/thirdparty/js/bootstrap.min.js"></script>
+<script> 
+$(function(){
+  $("#footer").load("footer.html"); 
+});
+</script>
+<body>
+  <!-- Table -->
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">Big Data</h3>
+	</div>
+	<div class="panel-body">
+		<table class="table">
+			
+			<tr>
+			<td>
+				<a target="_blank" href="https://www.quora.com/What-is-the-purpose-of-RecordReader-in-Hadoop">Record Reader</a></br>
+				<a target="_blank" href="https://hadoopi.wordpress.com/2013/05/27/understand-recordreader-inputsplit/">understand-recordreader-inputsplit</a></br>
+				<a target="_blank" href="https://shrikantbang.wordpress.com/2013/10/22/hadoop-custom-input-format/">hadoop-custom-input-format</a></br>
+				<a target="_blank" href="http://www.javamakeuse.com/2016/03/mapreduce-reduce-side-join-example-in.html">reduce-side-join-example</a></br>
+				<a target="_blank" href="http://hadooped.blogspot.in/2013/09/reduce-side-joins-in-java-map-reduce.html">reduce-side-join-example</a></br>
+				<a target="_blank" href="http://www.javamakeuse.com/2016/03/mapreduce-map-side-join-example-hadoop.html">map-side-join-example</a></br>
+				<a target="_blank" href="http://www.javamakeuse.com/2016/03/combiner-example-in-hadoop-map-reduce.html">combiner-example-in-hadoop</a></br>
+				<a target="_blank" href="http://www.javamakeuse.com/2016/03/custom-partitioner-example-in-hadoop.html">custom-partitioner-example</a></br>
+				<a target="_blank" href="http://www.javamakeuse.com/2016/04/secondary-sort-example-in-hadoop-mapreduce.html">secondary-sort-example</a></br>
+				<a target="_blank" href="http://blog.cloudera.com/blog/2009/12/7-tips-for-improving-mapreduce-performance/">7-tips-for-improving-mapreduce-performance</a></br>
+				<a target="_blank" href="http://dailyhadoopsoup.blogspot.in/2014/01/serilaization-is-process-of-converting.html">serilaization in hadoop</a></br>
+			</td>
+			<td>
+				<div>Hadoop</div>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<a target="_blank" href="https://cwiki.apache.org/confluence/display/Hive/Home">GettingStarted</a></br>
+				<a target="_blank" href="https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DML">Insert INTO from 0.8</a></br>
+				<a target="_blank" href="https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions">Hive+Transactions</a></br>
+				<a target="_blank" href="https://cwiki.apache.org/confluence/display/Hive/HCatalog+UsingHCat">HCatalog</a></br>
+				<a target="_blank" href="https://www.youtube.com/watch?v=TFOt0MMPwR4&list=PLLTwb5TR16mbNIB_eVmWLs1Q0FrwNRgab">Hive by Venu</a></br>
+				<a target="_blank" href="http://stackoverflow.com/questions/19128940/what-is-the-difference-between-partitioning-and-bucketing-a-table-in-hive">difference-between-partitioning-and-bucketing-a-table-in-hive</a></br>
+				<a target="_blank" href="http://www.edupristine.com/blog/hive-partitions-example">hive-partitions-example</a></br>
+				<a target="_blank" href="https://cwiki.apache.org/confluence/display/Hive/LanguageManual+SortBy">Sort By,Order By and Distribute By</a></br>
+				<a target="_blank" href="http://hadooptutorial.info/partitioning-in-hive/">partitioning-in-hive</a></br>
+				<a target="_blank" href="http://hadooptutorial.info/bucketing-in-hive/">bucketing-in-hive</a></br>
+				<a target="_blank" href="https://www.youtube.com/watch?v=Ods-zDnTWxs">Durga Raju</a></br>
+				<a target="_blank" href="https://www.youtube.com/channel/UCakdSIPsJqiOLqylgoYmwQg/videos">Durga Raju-All Videos</a></br>
+				<a target="_blank" href="http://beekeeperdata.com/posts/hadoop/2015/07/26/Hive-UDTF-Tutorial.html">Hive-UDTF</a></br>
+				<a target="_blank" href="https://acadgild.com/blog/hive-udtf/">Hive-UDTF</a></br>
+				<a target="_blank" href="http://dev.bizo.com/2010/07/extending-hive-with-custom-udtfs.html">extending-hive-with-custom-udtfs.html</a></br>
+				<a target="_blank" href="https://www.linkedin.com/pulse/hive-functions-udfudaf-udtf-examples-gaurav-singh">udfudaf-udtf-examples</a></br>
+			</td>
+			<td>
+				<div>Hive</div>
+			</td>
+			</tr>			
+			<tr>
+			<td>
+				<a target="_blank" href="http://www.wmanalytics.io/blog/">Big Data Blogs</a></br>
+			</td>	
+			</tr>
+		 </table>  
+	</div>
+</div>
+<div id="footer"></div>
+</body>
+</div>
+</html>
