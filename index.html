@@ -2,6 +2,7 @@
 <meta charset="ISO-8859-1">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="thirdparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="thirdparty/css/bootstrap.css">
 
 <!-- jQuery library -->
 <script src="thirdparty/jquery-3.1.0.min.js"></script>
@@ -10,26 +11,33 @@
 <script src="thirdparty/js/bootstrap.min.js"></script>
 <script> 
 $(function(){
-  $("#footer").load("/html/footer.html"); 
+  $("#footer").load("html/footer.html"); 
 });
 </script> 
 <body>
-  <!-- Table -->
-<div class="panel panel-default">
-	<div class="panel-heading">
-		<h3 class="panel-title">Welcome to my Website!</h3>
-	</div>
-	<div class="panel-body"><b class='higlight'>
-	<ul>
-		<li>I am Sunil Gupta.</li> 
-		<li>Java/J2EE and Bigdata programmer.</li> 
-		<li>Work on Java/J2EE, Hadoop, Spark and it's ecosystem projects.</li> 
-		<li>I have done Master of Computer Application from Nation Institute of Technology-Bhopal.</li>
-		<li>I am a Certified Scrum Master</li>	
-	</ul>
-	</div>
-</div>
-<div id="footer"></div>
-</body>
+	<div align="center">
+	<div class="panel panel-info" style="width: 50%" >
+		<!-- Default panel contents -->
 
+		<div class="panel-heading">Welcome to my Blog</div>
+		<div class="panel-body">
+			<table class="table table-bordered" >
+				<tr>
+					<td>
+						<ul>
+							<li>I am Sunil Gupta.</li> 
+							<li>Java/J2EE and Bigdata programmer.</li> 
+							<li>Work on Java/J2EE, Hadoop, Spark and it's ecosystem projects.</li> 
+							<li>I have done Master of Computer Application from Nation Institute of Technology-Bhopal.</li>
+							<li>I am a Certified Scrum Master</li>	
+						</ul>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+		<div id="footer"></div>
+	</div>
+	</div>
+</body>
 </html>
