@@ -1,132 +1,125 @@
 <html>
 <meta charset="ISO-8859-1">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="/thirdparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="../thirdparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="../thirdparty/css/bootstrap.css">
 
 <!-- jQuery library -->
-<script src="/thirdparty/jquery-3.1.0.min.js"></script>
+<script src="../thirdparty/jquery-3.1.0.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="/thirdparty/js/bootstrap.min.js"></script>
+<script src="../thirdparty/js/bootstrap.min.js"></script>
 <script> 
 $(function(){
   $("#footer").load("footer.html"); 
 });
 </script>
 <body>
-  <!-- Table -->
-<div class="panel panel-default">
-	<div class="panel-heading">
-		<h3 class="panel-title">Software Design</h3>
+<div align="center">
+<div class="panel panel-info" style="width: 50%" >
+<div class="panel-heading">Big Data</div>
+<div class="panel-body">
+	<table class="table table-bordered" >	
+	<tr><td><ul style="list-style: none">
+		<li><div>Resources</div>
+		<ul style="list-style: none">
+		<li><a href="http://www.javabrahman.com/category/programming-principles/" target="_blank">programming-principles(solid)</a></li>
+		<li><a href="http://howtodoinjava.com/best-practices/5-class-design-principles-solid-in-java/" target="_blank">class-design-principles-solid-in-java</a></li>
+		<li><a href="http://www.journaldev.com/1827/java-design-patterns-example-tutorial" target="_blank">journaldev.com</a></li>
+		<li><a href="https://www.youtube.com/watch?v=llGgO74uXMI" target="_blank">Core Design Principles for Software Developers by Venkat Subramaniam</a></li>
+		<li><a href="http://microservices.io/articles/scalecube.html" target="_blank">scalecube.html</a></li>
+		<li><a href="https://www.hiredintech.com/classrooms/system-design/lesson/52" target="_blank">hiredintech.com</a></li>
+		</ul>
+		</li>
+	    </ul></td>
+	    <td>
+		<div>Design Pattern & Principles</div>
+	    </td>
+	</tr>
+	<tr><td>
+		<ul style="list-style: none">
+		<li><div>Resources</div>
+		<ul style="list-style: none">
+		<li><a href="https://www.careercup.com/page?pid=system-design-interview-questions" target="_blank">careercup.com</a></li>
+		<li><a href="https://www.youtube.com/watch?v=2vtT6TBnOAM" target="_blank">Parking lot</a></li>
+		<li><a href="https://www.youtube.com/watch?v=fITuhLSwbt8" target="_blank">Elevator System</a></li>
+		<li><a href="https://github.com/shashank88/system_design" target="_blank">github.com</a></li>
+		</ul></li></ul>
+	    </td>
+	    <td>
+		<div>Design Use Cases</div>
+	    </td>
+	</tr>
+	<tr>
+	    <td><ul style="list-style: none">
+		<li><div> Microservices Architecture and its benefit over Monolith Applications </div>
+		<ul style="list-style: none">
+		<li><a target="_blank" href="http://www.infoq.com/articles/microservices-intro">infoq.com</a></li>
+		<li><a target="_blank" href="http://microservices.io/patterns/microservices.html">microservices.io</a></li>
+		<li><a target="_blank" href="http://martinfowler.com/articles/microservices.html">martinfowler.com</a></li>
+		<li><a target="_blank" href="http://blog.arungupta.me/microservices-monoliths-noops">arungupta.me</a></li>
+		<li><a target="_blank" href="http://blog.arungupta.me/microservice-design-patterns">arungupta.me</a></li>
+		<ul style="list-style: none">
+		<li><a target="_blank" href="https://en.wikipedia.org/wiki/Domain-driven_design">Domain Driven Design</a></b>: it addresses,<b class='higlight'>
+		<ul style="list-style: none">
+		<li><a target="_blank" href="https://en.wikipedia.org/wiki/Big_ball_of_mud">Big Ball of Mud</a></li>
+		<li><a target="_blank" href="https://en.wikipedia.org/wiki/Spaghetti_code">Spaghetti Code</a></li>
+		<li><a target="_blank" href="https://en.wikipedia.org/wiki/Pejorative">Pejorative Code</a></li>
+		</ul>
+		</li>
+		</b>
+		<li>Single Responsibility Principle</li>
+		<li>Explicitly Published Interface</li>
+		<li>Independently Deploy, Upgrade, Scale, Replace</li>
+		<li>Potentially Heterogeneous/Polyglot</li>
+		<li>Light-weight Communication</li>
+		</ul>
+		Related patterns,
+		<ul style="list-style: none">
+		<li>The <a target="_blank" href="http://microservices.io/patterns/monolithic.html">Monolithic architecture</a> is an alternative to the microservices architecture</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/apigateway.html">API Gateway pattern</a> defines how clients access services in microservices architecture</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/client-side-discovery.html">Client-side Discovery</a> to route requests for a client to an available service instance</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/server-side-discovery.html">Server-side Discovery</a> to route requests for a client to an available service instance</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/deployment/single-service-per-host.html">Single Service Pattern</a> per Host for deployment strategies</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/deployment/multiple-services-per-host.html">Multiple Services per Host</a> Pattern for deployment strategies</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/data/database-per-service.html">Database per Service pattern</a> describes how each service has its own database</li>
+		<li>The <a target="_blank" href="http://microservices.io/patterns/microservice-chassis.html">Microservice chassis pattern</a> says build microservices to handle <a target="_blank" href="https://en.wikipedia.org/wiki/Cross-cutting_concern">cross-cutting concerns</a></li>
+	  </ul>
+	  </td>
+	  <td>
+		<div>Microservices</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>The <b class='higlight'>Twelve-Factor</b> is a methodology for building SAS apps
+		<ul style="list-style: none">
+		<li><a target="_blank" href="http://12factor.net/codebase"><b class='higlight'>Codebase</b></a>: One codebase tracked in revision control, many deploys</li>
+		<li><a target="_blank" href="http://12factor.net/dependencies"><b class='higlight'>Dependencies</b></a>: Explicitly declare and isolate dependencies</li>
+		<li><a target="_blank" href="http://12factor.net/config"><b class='higlight'>Config</b></a>: Store config in the environment</li>
+		<li><a target="_blank" href="http://12factor.net/backing-services"><b class='higlight'>Baking services</b></a>: Explicitly declare and isolate dependencies</li>
+		<li><a target="_blank" href="http://12factor.net/build-release-run"><b class='higlight'>Build, release, run</b></a>: Strictly separate build and run stages</li>
+		<li><a target="_blank" href="http://12factor.net/processes"><b class='higlight'>Processes</b></a>: Execute the app as one or more stateless processes</li>
+		<li><a target="_blank" href="http://12factor.net/port-binding"><b class='higlight'>Port binding</b></a>:Export services via port binding</li>
+		<li><a target="_blank" href="http://12factor.net/concurrency"><b class='higlight'>Concurrency</b></a>: Scale out via the process model</li>
+		<li><a target="_blank" href="http://12factor.net/disposability"><b class='higlight'>Disposability</b></a>: Maximize robustness with fast startup and graceful shutdown</li>
+		<li><a target="_blank" href="http://12factor.net/dev-prod-parity"><b class='higlight'>Dev/prod parity</b></a>: Keep development, staging, and production as similar as possible</li>
+		<li><a target="_blank" href="http://12factor.net/logs"><b class='higlight'>Logs</b></a>: Treat logs as event streams</li>
+		<li><a target="_blank" href="http://12factor.net/admin-processes"><b class='higlight'>Admin processes</b></a>: One codebase tracked in revision control, many deploys</li>
+		</ul>
+	   </td>
+	   <td><li><a target="_blank" href="http://12factor.net">12factor.net</a><b class='higlight'></li></td>
+	</tr>
+	<tr>
+	   <td>
+		<ul style="list-style: none"><li><a target="_blank" href="https://www.youtube.com/watch?v=VPCmK1u9CCI&list=PL0e0_xCoqAFEoJ-k5z3z4BFMqlJGeUvBq&index=19">youtube.com</a></li></ul>
+	  </td>
+	   <td>Venkat</td>
+	</tr>
+	</table> 
 	</div>
-	<div class="panel-body">
-		<table class="table">
-			<tr>
-			<td>
-				<b class='higlight'>
-				<ul>
-					<li><div>Resources</div>
-					<ul>
-						<li><a href="http://www.javabrahman.com/category/programming-principles/" target="_blank">programming-principles(solid)</a></li>
-						<li><a href="http://howtodoinjava.com/best-practices/5-class-design-principles-solid-in-java/" target="_blank">class-design-principles-solid-in-java</a></li>
-						<li><a href="http://www.journaldev.com/1827/java-design-patterns-example-tutorial" target="_blank">journaldev.com</a></li>
-						<li><a href="https://www.youtube.com/watch?v=llGgO74uXMI" target="_blank">Core Design Principles for Software Developers by Venkat Subramaniam</a></li>
-						<li><a href="http://microservices.io/articles/scalecube.html" target="_blank">scalecube.html</a></li>
-						<li><a href="https://www.hiredintech.com/classrooms/system-design/lesson/52" target="_blank">hiredintech.com</a></li>
-					</ul>
-					</li>
-				</ul>
-			</td>
-			<td>
-				<div>Design Pattern & Principles</div>
-			</td>
-		  	</tr>
-			<tr>
-			<td>
-				<b class='higlight'>
-				<ul>
-					<li><div>Resources</div>
-					<ul>
-						<li><a href="https://www.careercup.com/page?pid=system-design-interview-questions" target="_blank">careercup.com</a></li>
-						<li><a href="https://www.youtube.com/watch?v=2vtT6TBnOAM" target="_blank">Parking lot</a></li>
-						<li><a href="https://www.youtube.com/watch?v=fITuhLSwbt8" target="_blank">Elevator System</a></li>
-						<li><a href="https://github.com/shashank88/system_design" target="_blank">github.com</a></li>
-					</ul>
-					</li>
-				</ul>
-			</td>
-			<td>
-				<div>Design Use Cases</div>
-			</td>
-		  	</tr>
-			<tr>
-			<td>
-				<b class='higlight'>
-				<ul>
-					<li><div> Microservices Architecture and its benefit over Monolith Applications </div>
-					<ul>
-						<li><a target="_blank" href="http://www.infoq.com/articles/microservices-intro">infoq.com</a></li>
-						<li><a target="_blank" href="http://microservices.io/patterns/microservices.html">microservices.io</a></li>
-						<li><a target="_blank" href="http://martinfowler.com/articles/microservices.html">martinfowler.com</a></li>
-						<li><a target="_blank" href="http://blog.arungupta.me/microservices-monoliths-noops">arungupta.me</a></li>
-						<li><a target="_blank" href="http://blog.arungupta.me/microservice-design-patterns">arungupta.me</a></li>
-					<ul>
-					<li><a target="_blank" href="https://en.wikipedia.org/wiki/Domain-driven_design">Domain Driven Design</a></b>: it addresses,<b class='higlight'>
-					<ul>
-						<li><a target="_blank" href="https://en.wikipedia.org/wiki/Big_ball_of_mud">Big Ball of Mud</a></li>
-						<li><a target="_blank" href="https://en.wikipedia.org/wiki/Spaghetti_code">Spaghetti Code</a></li>
-						<li><a target="_blank" href="https://en.wikipedia.org/wiki/Pejorative">Pejorative Code</a></li>
-					</ul>
-					</li>
-					</b>
-					<li>Single Responsibility Principle</li>
-					<li>Explicitly Published Interface</li>
-					<li>Independently Deploy, Upgrade, Scale, Replace</li>
-					<li>Potentially Heterogeneous/Polyglot</li>
-					<li>Light-weight Communication</li>
-				</ul>
-				Related patterns,
-				<ul>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/monolithic.html">Monolithic architecture</a> is an alternative to the microservices architecture</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/apigateway.html">API Gateway pattern</a> defines how clients access services in microservices architecture</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/client-side-discovery.html">Client-side Discovery</a> to route requests for a client to an available service instance</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/server-side-discovery.html">Server-side Discovery</a> to route requests for a client to an available service instance</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/deployment/single-service-per-host.html">Single Service Pattern</a> per Host for deployment strategies</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/deployment/multiple-services-per-host.html">Multiple Services per Host</a> Pattern for deployment strategies</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/data/database-per-service.html">Database per Service pattern</a> describes how each service has its own database</li>
-				  <li>The <a target="_blank" href="http://microservices.io/patterns/microservice-chassis.html">Microservice chassis pattern</a> says build microservices to handle <a target="_blank" href="https://en.wikipedia.org/wiki/Cross-cutting_concern">cross-cutting concerns</a></li>
-				</ul>
-			</td>
-			<td>
-				<div>Microservices</div>
-			</td>
-		  	</tr>
-			<tr>
-			<td>
-				The <b class='higlight'>Twelve-Factor</b> is a methodology for building SAS apps
-				<ul>
-					<li><a target="_blank" href="http://12factor.net/codebase"><b class='higlight'>Codebase</b></a>: One codebase tracked in revision control, many deploys</li>
-					<li><a target="_blank" href="http://12factor.net/dependencies"><b class='higlight'>Dependencies</b></a>: Explicitly declare and isolate dependencies</li>
-					<li><a target="_blank" href="http://12factor.net/config"><b class='higlight'>Config</b></a>: Store config in the environment</li>
-					<li><a target="_blank" href="http://12factor.net/backing-services"><b class='higlight'>Baking services</b></a>: Explicitly declare and isolate dependencies</li>
-					<li><a target="_blank" href="http://12factor.net/build-release-run"><b class='higlight'>Build, release, run</b></a>: Strictly separate build and run stages</li>
-					<li><a target="_blank" href="http://12factor.net/processes"><b class='higlight'>Processes</b></a>: Execute the app as one or more stateless processes</li>
-					<li><a target="_blank" href="http://12factor.net/port-binding"><b class='higlight'>Port binding</b></a>:Export services via port binding</li>
-					<li><a target="_blank" href="http://12factor.net/concurrency"><b class='higlight'>Concurrency</b></a>: Scale out via the process model</li>
-					<li><a target="_blank" href="http://12factor.net/disposability"><b class='higlight'>Disposability</b></a>: Maximize robustness with fast startup and graceful shutdown</li>
-					<li><a target="_blank" href="http://12factor.net/dev-prod-parity"><b class='higlight'>Dev/prod parity</b></a>: Keep development, staging, and production as similar as possible</li>
-					<li><a target="_blank" href="http://12factor.net/logs"><b class='higlight'>Logs</b></a>: Treat logs as event streams</li>
-					<li><a target="_blank" href="http://12factor.net/admin-processes"><b class='higlight'>Admin processes</b></a>: One codebase tracked in revision control, many deploys</li>
-				</ul>
-			</td>
-			<td><li><a target="_blank" href="http://12factor.net">12factor.net</a><b class='higlight'></li></td>
-			<td><li><a target="_blank" href="https://www.youtube.com/watch?v=VPCmK1u9CCI&list=PL0e0_xCoqAFEoJ-k5z3z4BFMqlJGeUvBq&index=19">Venkat</td>
-
-		  </tr>
-		  </table>  
+		<div id="footer" class="panel panel-info"></div>
 	</div>
-</div>
-<div id="footer"></div>
+	</div>
 </body>
 </div>
 </html>
