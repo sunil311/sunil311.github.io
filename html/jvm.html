@@ -1,13 +1,14 @@
 <html>
 <meta charset="ISO-8859-1">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="/thirdparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="../thirdparty/css/bootstrap.min.css">
+<link rel="stylesheet" href="../thirdparty/css/bootstrap.css">
 
 <!-- jQuery library -->
-<script src="/thirdparty/jquery-3.1.0.min.js"></script>
+<script src="../thirdparty/jquery-3.1.0.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="/thirdparty/js/bootstrap.min.js"></script>
+<script src="../thirdparty/js/bootstrap.min.js"></script>
 <script> 
 $(function(){
   $("#footer").load("footer.html"); 
@@ -16,21 +17,24 @@ $(function(){
 <body>
   <!-- Table -->
 <div class="panel panel-default">
-	<div class="panel-heading">
-		<h3 class="panel-title">JVM</h3>
-	</div>
-	<div class="panel-body">
-		<table class="table">
+	<div align="center">
+	<div class="panel panel-info" style="width: 50%" >
+		<!-- Default panel contents -->
+
+		<div class="panel-heading">JVM</div>
+		<div class="panel-body">
+			<table class="table table-bordered" >
 			<tr>
 				<td>
 					  <a href="http://blog.jamesdbloom.com/JVMInternals.html" target="_blank">jamesdbloom.com</a>
 				</td>
 				<td>JVM internals</td>
 			</tr>
-		  </table>  
+		  	</table>  
+		</div>
+		<div id="footer" class="panel panel-info"></div>
 	</div>
-</div>
-<div id="footer"></div>
+	</div>
 </body>
 </div>
 </html>
